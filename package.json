@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-brewyah",
+  "version": "0.0.0",
+  "description": "Standard ESLint configuration for the BrewYah application",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "brewyah",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
